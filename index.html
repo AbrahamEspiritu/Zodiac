@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Horoscope by Abraham Espiritu</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Monoton|Work+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Monoton" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+<!-- Nav bar -->
+	<div class="topnav">
+	  	<a href="#">Horoscope</a>
+	  	<a href="#">Tarot</a>
+	  	<a href="#">Career</a>
+			<a href="#">Money</a>
+			<a href="#">Health</a>
+	</div>
+
+<!-- Horoscope -->
+	<div class="title">
+				<!-- <form> -->
+					<div class="form-group">
+						<h1>ENTER YOUR HOROSCOPE SIGN</h1>
+					</div>
+					<div class="form-group">
+						<input id="userdata" class="form-control">
+					</div>
+					<div class="form-group">
+						<!-- runs the function line 66 main.js -->
+						<button type="button" onclick="horoscope()" class="btn btn-primary btn-lg">Find Sign</button>
+					</div>
+				</form>
+				<div>
+					<h1 id="yourSign"></h1>
+					<img id="icon" src="">
+					<p id="yourHoroscope"></p>
+				</div>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
